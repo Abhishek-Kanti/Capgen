@@ -1,0 +1,36 @@
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Media & Storage
+media/audio/*
+!media/audio/.gitkeep
+media/exports/*
+!media/exports/.gitkeep
+media/models/*
+!media/models/.gitkeep
+media/uploads/*
+!media/uploads/.gitkeep
+
+# Environment variables & editor config
+.env
+.env.*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
